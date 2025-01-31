@@ -24,7 +24,7 @@ let renderProduct = (productArr) => {
     });
 }
 let getDataForm = () => {
-    let name = document.getElementById("TenSP").value; w
+    let name = document.getElementById("TenSP").value;
     let price = document.getElementById("GiaSP").value * 1;
     let screen = document.getElementById("ScreenSP").value;
     let blackCamera = document.getElementById("BlackCameraSP").value;
